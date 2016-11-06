@@ -1,0 +1,61 @@
+[global_config]
+  enabled_plugins = CustomCommandsMenu,
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+  [[CustomCommandsMenu]]
+    [[[CROSS_COMPILE=Google-4.9]]]
+      command = export CROSS_COMPILE=/home/xnn/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-
+      enabled = True
+      name = CROSS_COMPILE=Google-4.9
+      position = 2
+    [[[CROSS_COMPILE=UBER-4.9]]]
+      command = export CROSS_COMPILE=/run/media/xnn/_backup/Toolchains/uber/UBERTC-arm-eabi-4.9/bin/arm-eabi-
+      enabled = True
+      name = CROSS_COMPILE=UBER-4.9
+      position = 4
+    [[[CROSS_COMPILE=androideabi-5.x/]]]
+      command = export CROSS_COMPILE=/run/media/xnn/_backup/Toolchains/arm-linux-androideabi-5.x/bin/arm-linux-androideabi-
+      enabled = True
+      name = CROSS_COMPILE=androideabi-5.x/
+      position = 3
+    [[[export ARCH=arm]]]
+      command = export ARCH=arm
+      enabled = True
+      name = export ARCH=arm
+      position = 0
+    [[[export SUBARCH=arm]]]
+      command = export SUBARCH=arm
+      enabled = True
+      name = export SUBARCH=arm
+      position = 1
+    [[[repo sync --force-sync]]]
+      command = repo sync --force-sync
+      enabled = True
+      name = repo sync --force-sync
+      position = 7
+    [[[source build/envsetup.sh]]]
+      command = source build/envsetup.sh
+      enabled = True
+      name = source build/envsetup.sh
+      position = 6
+    [[[source ~/.bashrc]]]
+      command = source ~/.bashrc
+      enabled = True
+      name = source ~/.bashrc
+      position = 5
+[profiles]
+  [[default]]
+    background_image = None
+    cursor_color = "#ffffff"
+    foreground_color = "#d20000"
+    scroll_on_output = False
+    scrollback_infinite = True
+    show_titlebar = False
