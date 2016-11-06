@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/">
+	<menu id="root-menu" label="Applications">
+		<item label="File manager">
+			<action name="Execute">
+				<command>
+<![CDATA[pcmanfm]]>																																																																
+				</command>
+			</action>
+		</item>
+		<item label="Terminal">
+			<action name="Execute">
+				<execute>terminator</execute>
+			</action>
+		</item>
+		<item label="root Thunar">
+			<action name="Execute">
+				<execute>gksu thunar</execute>
+			</action>
+		</item>
+		<item label="Search">
+			<action name="Execute">
+				<execute>catfish</execute>
+			</action>
+		</item>
+		<item label="Chrome">
+			<action name="Execute">
+				<execute>/opt/google/chrome/google-chrome</execute>
+			</action>
+		</item>
+		<item label="Run...">
+			<action name="Execute">
+				<command>
+<![CDATA[gmrun]]>																																																																
+				</command>
+			</action>
+		</item>
+		<separator label="Categories"/>
+		<menu id="root-menu-96409" label="Android">
+			<item label="Android Studio">
+				<action name="Execute">
+					<execute>android-studio</execute>
+				</action>
+			</item>
+			<item label="Heimdall">
+				<action name="Execute">
+					<execute>gksu heimdall-frontend</execute>
+				</action>
+			</item>
+			<item label="Qtadb">
+				<action name="Execute">
+					<execute>qtadb</execute>
+				</action>
+			</item>
+			<item label="Raccoon">
+				<action name="Execute">
+					<execute>raccoon</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-452957" label="Development">
+			<item label="GitKraken">
+				<action name="Execute">
+					<execute>gitkraken</execute>
+				</action>
+			</item>
+			<item label="Python-Switcher">
+				<action name="Execute">
+					<execute>gksu bbqlinux-python-switcher</execute>
+				</action>
+			</item>
+			<item label="Java-Switcher">
+				<action name="Execute">
+					<execute>gksu bbqlinux-java-switcher</execute>
+				</action>
+			</item>
+			<item label="Geany">
+				<action name="Execute">
+					<execute>geany</execute>
+				</action>
+			</item>
+			<item label="Meld">
+				<action name="Execute">
+					<execute>meld</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Utilities" label="Utilities">
+			<item label="About Xfce">
+				<action name="Execute">
+					<command>
+<![CDATA[xfce4-about]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="ClipIt">
+				<action name="Execute">
+					<command>
+<![CDATA[clipit]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="compton">
+				<action name="Execute">
+					<command>
+<![CDATA[compton --xrender-sync-fence]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Double Commander">
+				<action name="Execute">
+					<command>
+<![CDATA[doublecmd]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="File Manager PCManFM">
+				<action name="Execute">
+					<command>
+<![CDATA[pcmanfm]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Font Viewer">
+				<action name="Execute">
+					<command>
+<![CDATA[gnome-font-viewer]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Galculator">
+				<action name="Execute">
+					<command>
+<![CDATA[galculator]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Plank">
+				<action name="Execute">
+					<command>
+<![CDATA[plank]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Root Terminal">
+				<action name="Execute">
+					<command>
+<![CDATA[gksu -l gnome-terminal]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Sakura">
+				<action name="Execute">
+					<command>
+<![CDATA[sakura]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Shutter">
+				<action name="Execute">
+					<command>
+<![CDATA[shutter]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Xarchiver">
+				<action name="Execute">
+					<command>
+<![CDATA[xarchiver]]>																																																																													
+					</command>
+				</action>
+			</item>
+		</menu>
+		<menu id="Graphics" label="Graphics">
+			<item label="Agave">
+				<action name="Execute">
+					<command>
+<![CDATA[agave]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Document Viewer">
+				<action name="Execute">
+					<command>
+<![CDATA[evince]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="GNU Image Manipulation Program">
+				<action name="Execute">
+					<command>
+<![CDATA[gimp-2.8]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Gpick">
+				<action name="Execute">
+					<command>
+<![CDATA[gpick]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="gThumb">
+				<action name="Execute">
+					<command>
+<![CDATA[gthumb]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Inkscape">
+				<action name="Execute">
+					<command>
+<![CDATA[inkscape]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="LibreOffice Draw">
+				<action name="Execute">
+					<command>
+<![CDATA[libreoffice --draw]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Simple Scan">
+				<action name="Execute">
+					<command>
+<![CDATA[simple-scan]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="UFRaw">
+				<action name="Execute">
+					<command>
+<![CDATA[ufraw]]>																																																																													
+					</command>
+				</action>
+			</item>
+		</menu>
+		<menu id="Multimedia" label="Multimedia">
+			<item label="Spotify">
+				<action name="Execute">
+					<execute>spotify</execute>
+				</action>
+			</item>
+			<item label="QMediathekView">
+				<action name="Execute">
+					<execute>QMediathekView</execute>
+				</action>
+			</item>
+			<item label="Brasero">
+				<action name="Execute">
+					<command>
+<![CDATA[brasero]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="DeaDBeeF">
+				<action name="Execute">
+					<command>
+<![CDATA[deadbeef]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="FFADO Mixer">
+				<action name="Execute">
+					<command>
+<![CDATA[ffado-mixer]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="PulseAudio Volume Control">
+				<action name="Execute">
+					<command>
+<![CDATA[pavucontrol]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Qt V4L2 test Utility">
+				<action name="Execute">
+					<command>
+<![CDATA[qv4l2]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="VLC media player">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/bin/vlc --started-from-file]]>																																																																													
+					</command>
+				</action>
+			</item>
+		</menu>
+		<menu id="Net" label="Net">
+			<item label="GTK2 Samba Client">
+				<action name="Execute">
+					<command>
+<![CDATA[g2sc]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Google Chrome">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/bin/google-chrome-stable]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Chromium">
+				<action name="Execute">
+					<command>
+<![CDATA[chromium]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Firefox">
+				<action name="Execute">
+					<command>
+<![CDATA[firefox]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Franz">
+				<action name="Execute">
+					<command>
+<![CDATA[franz-bin --]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="JDownloader">
+				<action name="Execute">
+					<command>
+<![CDATA[JDownloader]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Psi">
+				<action name="Execute">
+					<command>
+<![CDATA[psi]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Remmina">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/bin/remmina]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="X11VNC Server">
+				<action name="Execute">
+					<command>
+<![CDATA[x11vnc -gui tray=setpass -rfbport PROMPT -bg -o]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Zenmap (as root)">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/share/zenmap/su-to-zenmap.sh]]>																																																																													
+					</command>
+				</action>
+			</item>
+		</menu>
+		<menu id="Other" label="Other">
+			<item label="Android Studio">
+				<action name="Execute">
+					<command>
+<![CDATA[android-studio]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="CMake">
+				<action name="Execute">
+					<command>
+<![CDATA[cmake-gui]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Geany">
+				<action name="Execute">
+					<command>
+<![CDATA[geany]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Java Mission Control">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/lib/jvm/java-8-jdk/bin/jmc]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Java Monitoring and Management Console">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/lib/jvm/java-8-jdk/bin/jconsole]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Java VisualVM">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/lib/jvm/java-8-jdk/bin/jvisualvm]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Meld">
+				<action name="Execute">
+					<command>
+<![CDATA[meld]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="OpenJDK 1.7.0 Policy Tool">
+				<action name="Execute">
+					<command>
+<![CDATA[_BINDIR_/policytool]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Qt4 Assistant">
+				<action name="Execute">
+					<command>
+<![CDATA[assistant-qt4]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Qt4 Designer">
+				<action name="Execute">
+					<command>
+<![CDATA[designer-qt4]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Qt4 Linguist">
+				<action name="Execute">
+					<command>
+<![CDATA[linguist-qt4]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Qt4 QDbusViewer">
+				<action name="Execute">
+					<command>
+<![CDATA[qdbusviewer-qt4]]>																																																																													
+					</command>
+				</action>
+			</item>
+		</menu>
+		<menu id="Settings" label="Settings">
+			<item label="Customize Look and Feel">
+				<action name="Execute">
+					<command>
+<![CDATA[lxappearance]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Default applications for LXSession">
+				<action name="Execute">
+					<command>
+<![CDATA[lxsession-default-apps]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Desktop Preferences">
+				<action name="Execute">
+					<command>
+<![CDATA[pcmanfm --desktop-pref]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Desktop Session Settings">
+				<action name="Execute">
+					<command>
+<![CDATA[lxsession-edit]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="IcedTea-Web Control Panel">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/share/icedtea-web/bin/itweb-settings]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Java Policy Settings">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/lib/jvm/java-8-jdk/jre/bin/policytool]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Java Policy Settings">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/lib/jvm/java-8-jre/jre/bin/policytool]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Java">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/lib/jvm/java-8-jdk/jre/bin/jcontrol]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Java">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/lib/jvm/java-8-jre/jre/bin/jcontrol]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Keyboard and Mouse">
+				<action name="Execute">
+					<command>
+<![CDATA[lxinput]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Monitor Settings">
+				<action name="Execute">
+					<command>
+<![CDATA[lxrandr]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Network Connections">
+				<action name="Execute">
+					<command>
+<![CDATA[nm-connection-editor]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Notifications">
+				<action name="Execute">
+					<command>
+<![CDATA[xfce4-notifyd-config]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Openbox Configuration Manager">
+				<action name="Execute">
+					<command>
+<![CDATA[obconf]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Preferred Applications">
+				<action name="Execute">
+					<command>
+<![CDATA[libfm-pref-apps]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Print Settings">
+				<action name="Execute">
+					<command>
+<![CDATA[system-config-printer]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Privilege granting">
+				<action name="Execute">
+					<command>
+<![CDATA[gksu-properties]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Samba Server Configuration">
+				<action name="Execute">
+					<command>
+<![CDATA[gksu /usr/bin/system-config-samba]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Tint2 Settings">
+				<action name="Execute">
+					<command>
+<![CDATA[tint2conf]]>																																																																													
+					</command>
+				</action>
+			</item>
+		</menu>
+		<menu id="System" label="System">
+			<item label="Add/Remove Software">
+				<action name="Execute">
+					<command>
+<![CDATA[pamac-manager]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Avahi Zeroconf Browser">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/bin/avahi-discover]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="File Manager PCManFM">
+				<action name="Execute">
+					<command>
+<![CDATA[pcmanfm]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="GParted">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/bin/gparted_polkit]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Heimdall">
+				<action name="Execute">
+					<command>
+<![CDATA[heimdall-frontend]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Htop">
+				<action name="Execute">
+					<command>
+<![CDATA[sakura --columns=130 --rows=45 -e 'htop']]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Manage Printing">
+				<action name="Execute">
+					<command>
+<![CDATA[/usr/bin/xdg-open http://localhost:631/]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Print Settings">
+				<action name="Execute">
+					<command>
+<![CDATA[system-config-printer]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Sakura">
+				<action name="Execute">
+					<command>
+<![CDATA[sakura]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Samba Server Configuration">
+				<action name="Execute">
+					<command>
+<![CDATA[gksu /usr/bin/system-config-samba]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Software Update">
+				<action name="Execute">
+					<command>
+<![CDATA[pamac-updater]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Tint2">
+				<action name="Execute">
+					<command>
+<![CDATA[tint2]]>																																																																													
+					</command>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="Advanced settings" label="Advanced settings">
+			<item label="Conky RC">
+				<action name="Execute">
+					<command>
+<![CDATA[geany ~/.conkyrc]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Tint2 Panel">
+				<action name="Execute">
+					<command>
+<![CDATA[geany ~/.config/tint2/tint2rc]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="ObMenu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<menu id="Obmenu-Generator" label="Obmenu-Generator">
+				<item label="Menu Schema">
+					<action name="Execute">
+						<command>
+<![CDATA[geany ~/.config/obmenu-generator/schema.pl]]>																																																																																										
+						</command>
+					</action>
+				</item>
+				<item label="Menu Config">
+					<action name="Execute">
+						<command>
+<![CDATA[geany ~/.config/obmenu-generator/config.pl]]>																																																																																										
+						</command>
+					</action>
+				</item>
+				<separator/>
+				<item label="Generate a pipe menu">
+					<action name="Execute">
+						<command>
+<![CDATA[obmenu-generator -p]]>																																																																																										
+						</command>
+					</action>
+				</item>
+				<item label="Generate a static menu">
+					<action name="Execute">
+						<command>
+<![CDATA[obmenu-generator -s -c]]>																																																																																										
+						</command>
+					</action>
+				</item>
+				<item label="Generate a pipe menu with icons">
+					<action name="Execute">
+						<command>
+<![CDATA[obmenu-generator -p -i]]>																																																																																										
+						</command>
+					</action>
+				</item>
+				<item label="Generate a static menu with icons">
+					<action name="Execute">
+						<command>
+<![CDATA[obmenu-generator -s -i -c]]>																																																																																										
+						</command>
+					</action>
+				</item>
+				<separator/>
+				<item label="Refresh Icon Set">
+					<action name="Execute">
+						<command>
+<![CDATA[obmenu-generator -d]]>																																																																																										
+						</command>
+					</action>
+				</item>
+			</menu>
+			<menu id="Openbox" label="Openbox">
+				<item label="Reconfigure Openbox">
+					<action name="Execute">
+						<command>
+<![CDATA[openbox --reconfigure]]>																																																																																										
+						</command>
+					</action>
+				</item>
+				<item label="Openbox Autostart">
+					<action name="Execute">
+						<command>
+<![CDATA[geany ~/.config/openbox/autostart]]>																																																																																										
+						</command>
+					</action>
+				</item>
+				<item label="Openbox RC">
+					<action name="Execute">
+						<command>
+<![CDATA[geany ~/.config/openbox/rc.xml]]>																																																																																										
+						</command>
+					</action>
+				</item>
+				<item label="Openbox Menu">
+					<action name="Execute">
+						<command>
+<![CDATA[geany ~/.config/openbox/menu.xml]]>																																																																																										
+						</command>
+					</action>
+				</item>
+				<item label="Openbox Menu Editor">
+					<action name="Execute">
+						<command>
+<![CDATA[obmenu]]>																																																																																										
+						</command>
+					</action>
+				</item>
+			</menu>
+			<item label="Plank configuration">
+				<action name="Execute">
+					<command>
+<![CDATA[plank --preferences]]>																																																																													
+					</command>
+				</action>
+			</item>
+			<item label="Wallpaper configuration">
+				<action name="Execute">
+					<command>
+<![CDATA[nitrogen]]>																																																																													
+					</command>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<item label="Lock">
+			<action name="Execute">
+				<command>
+<![CDATA[/home/bin/lock]]>																																																																
+				</command>
+			</action>
+		</item>
+		<item label="Exit">
+			<action name="Execute">
+				<command>
+<![CDATA[oblogout]]>																																																																
+				</command>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>
