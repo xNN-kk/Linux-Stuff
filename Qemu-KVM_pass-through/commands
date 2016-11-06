@@ -1,0 +1,37 @@
+
+gedit /etc/default/grub
+
+grub-mkconfig -o /boot/grub/grub.cfg
+
+/etc/libvirt/qemu.conf
+
+systemctl status libvirtd.service
+systemctl restart libvirtd.service
+
+
+lspci -nnk
+
+dmesg | grep -i iommu
+
+dmesg | grep -e DMAR -e IOMMU
+
+lspci -tvnn
+
+find /sys/kernel/iommu_groups/ -type l
+
+sudo virsh define gamingvm2.xml
+
+
+
+
+
+
+---------------------------------------------------------------------------------
+05:00.0 [Radeon R7 260X/360] [1002:6658]
+		
+05:00.1  [AMD/ATI] Tobago HDMI Audio [1002:aac0]
+	
+
+Bus 003 Device 005: ID 046d:c52b Logitech, Inc. Unifying Receiver
+Bus 003 Device 006: ID 1a81:1701 Holtek Semiconductor, I
+
