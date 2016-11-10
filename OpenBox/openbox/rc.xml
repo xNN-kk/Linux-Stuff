@@ -508,6 +508,7 @@ Set this to 0 to disable warping -->
         <action name="Raise"/>
         <action name="ShowMenu">
           <menu>client-menu</menu>
+          <showIcons>yes</showIcons>
         </action>
       </mousebind>
     </context>
